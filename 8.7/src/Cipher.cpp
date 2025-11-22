@@ -6,7 +6,18 @@
 #include <fstream>
 
 using namespace std;
-
+/* ---------------------------------------------------------------------------
+** I attest that this following code represents my own work and is subject to
+** the plagiarism policy found in the course syllabus.
+** 
+** Class: 	CSC 242
+** Assignment: 	Lesson # 5 Signature Assignment
+** File: 	source.cpp
+** Description: Enter brief project description here.
+**
+** Author: 	Student Name
+** Date: 	Create Date
+** -------------------------------------------------------------------------*/
 string build_cipher(const string& keyword){ // establishes the cipher from the user's keyword
 	string result;
 	unordered_set<char> used; // reads users keyword character by character
@@ -99,3 +110,4 @@ int main(){
 
 	return 0;
 }
+
