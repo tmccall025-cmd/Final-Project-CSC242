@@ -12,7 +12,7 @@ using namespace std;
 ** the plagiarism policy found in the course syllabus.
 ** 
 ** Class: 	CSC 242
-** Assignment: 	Lesson #4: Signature Assignment
+** Assignment: 	Lesson #5: Signature Assignment
 ** File: 	SpellCheck.cpp
 ** Description: This code will receive a user file, check all words read against Unix list,
 ** and print any words that are not on the list.
@@ -62,8 +62,9 @@ int main()
 			cout << user_word << endl;
 		}
 // This is the portion of the function that reads the words in the user file, checks to see if they're
-// present in the Unix dict list, and if not then prints out that word.
+// present in the Unix dict list, and if not then prints out that word. My Unix list does not include 'Hello'
 	}
-	
+	return 0;
 }
+
 
